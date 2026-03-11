@@ -238,4 +238,5 @@ with container:
             on_click=check_password
         ).classes('w-full mt-4 bg-pink-400 text-white rounded-full')
 
-ui.run()
+
+ui.run(host="0.0.0.0", port=8080)
